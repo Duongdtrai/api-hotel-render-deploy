@@ -1,7 +1,0 @@
-{
-    "success": "Success",
-    "error": "Error 404",
-    "errorServer": "Error Server",
-    "validatorEmail": "Email is duplicated, please re-enter",
-    "validatorPassword": "Password is incorrect, please re-enter"
-}
