@@ -7,7 +7,7 @@ import AccountModel from '../models/Account';
 import I18n from '../utils/i18n';
 import SendMailer from '../utils/mailer';
 // function i18n
-const notification = async (key?: string) => {
+const notification = async (key?:any) => {
     const i18n = await I18n.init();
     return i18n.t(key);
 };

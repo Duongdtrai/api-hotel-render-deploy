@@ -2,7 +2,7 @@ import { Router } from 'express';
 import UserRouting from './user';
 import AdminRouting from './admin';
 import AccountRouting from './Account';
-import UploadController from './upload';
+import UploadController from './Upload';
 const router = Router();
 
 router.use('/u', UserRouting);

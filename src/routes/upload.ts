@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import multer from '../middlewares/multer';
-import UploadController from '../controllers/upload';
+import UploadController from '../controllers/Upload';
 const router = Router();
 /**
  * @openapi

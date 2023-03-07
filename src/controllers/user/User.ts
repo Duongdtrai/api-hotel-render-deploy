@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import * as _ from 'lodash';
 import UserModel from '../../models/user/User';
 import I18n from '../../utils/i18n';
-const notification = async (key?: string) => {
+const notification = async (key?:any) => {
     const i18n = await I18n.init();
     return i18n.t(key);
 };
