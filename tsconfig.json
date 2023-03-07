@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "module": "commonjs",
+        "target": "ES6", // kiểu build ra file js dạng ES6
+        "outDir": "dist", // tên folder chứa các file js
+        "watch": true, // tự build khi có file ts thay đổi
+        "removeComments": true, // khi build sang js sẽ tự xóa các cmt
+        "allowSyntheticDefaultImports": true,
+        "allowJs": true, // cho phép các tệp js được dùng trong ts
+        "checkJs": true, // sử dụng cùng allowJs, check lỗi 
+        "sourceMap": true,
+        "noImplicitAny": true, // báo lỗi như kiểu thiếu kiểu dữ liệu
+    },
+    "include": [ // những file sẽ build
+        "./src/**/*",
+    ],
+    "exclude": [] // không build các file trong exclude sang ts
+}
